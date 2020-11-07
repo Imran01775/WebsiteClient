@@ -6,6 +6,9 @@ import { AppComponent } from './app.component';
 import { RegistrationComponent } from './admin/modules/registration/registration.component';
 import { LoginComponent } from './admin/modules/login/login.component';
 import { RegistrationloginModule } from './admin/modules/registrationlogin/registrationlogin.module';
+import { HeaderComponent } from './site/modules/header/header.component';
+import { FooterComponent } from './site/modules/footer/footer.component';
+import { HeaderfooterModule } from './Site/modules/headerfooter/headerfooter.module';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,8 @@ import { RegistrationloginModule } from './admin/modules/registrationlogin/regis
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RegistrationloginModule
+    RegistrationloginModule,
+    HeaderfooterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
