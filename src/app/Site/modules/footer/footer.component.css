@@ -1,0 +1,86 @@
+.footer_zero{
+    padding:0;
+    margin-top:15px;
+}
+
+
+.footer_wrapper{
+    width:100%;
+    float:left;
+}
+
+
+    .footer_first{
+        width:100%;
+        height:25px;
+        background-color:#e00510 !important;
+        float:left;
+    }
+
+    .footer_content{
+        float:left;
+        width:100%;
+            background-color:#fff;
+    }
+
+        .footer_content_portion{
+            float: left;
+            padding-top: 25px;
+            padding-bottom: 15px;
+            padding-left: 15px;
+            padding-right: 0;
+        }
+
+            /*.company_logo_footer{
+                float:left;
+                margin:0;
+                padding:0;
+                border:1px solid green;
+            }*/
+
+            .customer-footer-wrapper{
+                float: left;
+                margin: 0;
+                padding: 0;
+                width: 100%;
+            }
+
+                .customer-footer-wrapper > h4{
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    font-size: 16px;
+                    width: 100%;
+                    }
+                
+                .customer-footer-wrapper > ul{
+                    list-style:none;
+                    margin:0;
+                    padding:0;
+                    text-decoration:none;
+                }
+                        .customer-footer-wrapper > ul > li >a{
+                            text-decoration:none;
+                            letter-spacing: 1px;
+                            line-height:2;
+                            color:gray;
+                            font-size:12px;
+                        }
+
+                          .customer-footer-wrapper > ul > li >a:hover{
+                              color:#e00510;
+                          }
+
+
+        .copy_right_reserved{
+            float:left;
+            text-align:center;
+            width:100%;
+            padding:15px;
+        }
+
+        .footer_last{
+        width:100%;
+        height:2px;
+        background-color:#E0053C;
+        float:left;
+    }

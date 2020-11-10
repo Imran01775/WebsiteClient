@@ -8,7 +8,7 @@ const routes: Routes = [
   {
     path: '',
     children: [
-      { path: '', component: LoginComponent, pathMatch: 'full' },
+      // { path: '', component: LoginComponent, pathMatch: 'full' },
       { path: 'login', component: LoginComponent, pathMatch: 'full' },
       { path: 'registration', component: RegistrationComponent }
     ]
