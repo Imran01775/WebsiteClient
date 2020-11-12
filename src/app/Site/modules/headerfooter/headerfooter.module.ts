@@ -24,6 +24,10 @@ const routes: Routes = [
   imports: [
     CommonModule,
     RouterModule.forChild(routes)
+  ],
+  exports:[
+    HeaderComponent,
+    FooterComponent
   ]
 })
 export class HeaderfooterModule { }
