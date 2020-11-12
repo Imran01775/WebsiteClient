@@ -3,10 +3,11 @@ import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
 import { HeaderComponent } from '../header/header.component'
 import { FooterComponent } from '../footer/footer.component';
+import { HomeComponent } from '../home/home.component';
 
 const routes: Routes = [
   {
-    path: '',
+    path: '',component:HomeComponent,
     children: [
    
       { path: 'header', component: HeaderComponent, pathMatch: 'full' },
