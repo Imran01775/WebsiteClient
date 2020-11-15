@@ -1,0 +1,45 @@
+
+    .breadcrumb-container{
+        border-bottom: 1px solid #e9e9e9;
+        background-color: #fafafa;
+    }
+
+        .breadcrumb-list{
+            width:100%;
+        }
+
+            .breadcrumb-list ul{
+                list-style:none;
+                margin:0;
+                padding:0;
+            }
+
+                .breadcrumb-list ul li{
+                    display:inline-block;
+                }
+
+                     .home-fix a{
+                         text-decoration:none;
+                         font-size:15px;
+                     }
+
+                      .fa:hover{
+                          text-decoration:none;
+                          color:red;
+                      }
+
+                      .home-list{
+                          padding:2px;                       
+                          padding-left: 9px;
+                      }
+
+                           .home-list a{
+                               font-size:11px;
+                               color:#999;
+                               text-decoration:none;
+                           }
+
+                                 .home-list a:hover{
+                                     color:red;
+                                 }
+

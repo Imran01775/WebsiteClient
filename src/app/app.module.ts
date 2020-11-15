@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { HomeModule } from './Site/modules/home/home.module';
 import { RegistrationloginModule } from './admin/modules/registrationlogin/registrationlogin.module';
 import { HeaderfooterModule } from './Site/modules/headerfooter/headerfooter.module';
+import { ProductModule } from './Site/modules/product/product.module';
 
 @NgModule({
   declarations: [
@@ -15,8 +16,8 @@ import { HeaderfooterModule } from './Site/modules/headerfooter/headerfooter.mod
     AppRoutingModule,
     HomeModule,
     RegistrationloginModule,
-    HeaderfooterModule
-    
+    HeaderfooterModule,
+    ProductModule
   ],
   providers: [],
   bootstrap: [AppComponent]
