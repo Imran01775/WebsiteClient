@@ -3,7 +3,10 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+
+  api_url: 'http://localhost:1025/',  //'http://ec2-18-130-100-198.eu-west-2.compute.amazonaws.com:1025/',//'http://ec2-18-130-100-198.eu-west-2.compute.amazonaws.com:1025/',//'http://api.mykashback.co.uk/',//
+  tokenKeyName: 'auth-token'
 };
 
 /*
