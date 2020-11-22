@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { LoginComponent } from '../login/login.component';
 import { RegistrationComponent } from '../registration/registration.component';
 import { RouterModule, Routes } from '@angular/router';
+import { HeaderfooterModule } from 'src/app/Site/modules/headerfooter/headerfooter.module';
 
 const routes: Routes = [
   {
@@ -23,11 +24,9 @@ const routes: Routes = [
   ],
   imports: [
     CommonModule,
-    RouterModule.forChild(routes)
+    RouterModule.forChild(routes),
+    HeaderfooterModule
   ],
-  exports:[
-    // LoginComponent,
-    // RegistrationComponent
-  ]
+  exports:[RouterModule]
 })
 export class RegistrationloginModule { }
