@@ -6,10 +6,13 @@ import { HomeModule } from './Site/modules/home/home.module';
 import { RegistrationloginModule } from './admin/modules/registrationlogin/registrationlogin.module';
 import { HeaderfooterModule } from './Site/modules/headerfooter/headerfooter.module';
 import { ProductModule } from './Site/modules/product/product.module';
+import { ProductAdminModule } from './core/admin/modules/product/product-admin.module';
+
+
 
 @NgModule({
   declarations: [
-    AppComponent,
+    AppComponent
   
   ],
   imports: [
@@ -18,7 +21,8 @@ import { ProductModule } from './Site/modules/product/product.module';
     HomeModule,
     RegistrationloginModule,
     HeaderfooterModule,
-    ProductModule
+    ProductModule,
+    ProductAdminModule
   ],
   providers: [],
   bootstrap: [AppComponent]

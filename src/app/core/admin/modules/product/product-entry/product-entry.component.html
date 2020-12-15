@@ -1,0 +1,126 @@
+
+<app-header></app-header>
+
+<div id="page-wrapper">
+    <div class="row">
+        <div>
+
+
+            <span class="danger" id="messageLabel"></span>
+            <div class="col-lg-12">
+                <div class="col-lg-4">
+                    <div class="form-group">
+                        <label for="CategoryName">Category Name</label>
+
+                        <select name="CategoryID" id="CategoryID" class="form-control">
+                            <option value="Select Category">Select Category</option>
+                            <option value="saab">Saab</option>
+                            <option value="mercedes">Mercedes</option>
+                            <option value="audi">Audi</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="SubCategoryName">SubCategory Name</label>
+                        <select name="SubCategoryID" id="SubCategoryID" class="form-control">
+                            <option value="Select SubCategory">Select SubCategory</option>
+                            <option value="saab">Saab</option>
+                            <option value="mercedes">Mercedes</option>
+                            <option value="audi">Audi</option>
+                        </select>
+
+                    </div>
+                    <div class="form-group">
+                        <label for="SubSubCategoryName">SubSubCategory Name</label>
+                        <select name="SubSubCategoryID" id="SubSubCategoryID" class="form-control">
+                            <option value="Select SubSubCategory">Select SubSubCategory</option>
+                            <option value="saab">Saab</option>
+                            <option value="mercedes">Mercedes</option>
+                            <option value="audi">Audi</option>
+                        </select>
+
+
+                    </div>
+                    <div class="form-group">
+                        <label for="BrandName">Brand Name</label>
+                        <select name="BrandID" id="BrandID" class="form-control">
+                            <option value="Select Brand">Select Brand</option>
+                            <option value="saab">Saab</option>
+                            <option value="mercedes">Mercedes</option>
+                            <option value="audi">Audi</option>
+                        </select>
+
+                    </div>
+                    <div class="form-group">
+                        <label for="ProductTitle">Product Title</label>
+
+                        <input type="text" class="form-control" placeholder="Product Title" />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="Quantity">Quantity</label>
+                        <input type="text" class="form-control" placeholder="Quantity" />
+
+                    </div>
+
+                    <div class="form-group">
+                        <label for="ProductPrice">Product Price</label>
+                        <input type="text" class="form-control" placeholder="ProductPrice" />
+
+                    </div>
+                </div>
+                <div class="col-lg-4">
+
+                    <div class="form-group">
+                        <label for="ProductDiscount">Product Discount</label>
+                        <input type="text" class="form-control" placeholder="ProductDiscount" />
+
+                    </div>
+                    <div class="form-group">
+                        <label for="VideoLink">VideoLink</label>
+                        <textarea class="form-control" id="VideoLink" name="VideoLink" value="" placeholder="VideoLink"
+                            rows="6"></textarea>
+
+                    </div>
+
+
+
+                </div>
+                <div class="col-lg-4">
+                    <div class="form-group">
+                        <label for="IsActive">Is Active</label>
+
+                        <input type="radio" name="IsActive" value="true">
+                        <input type="radio" name="IsActive" value="false">
+                    </div>
+                    <div class="form-group">
+
+                        <label for="ImageUpload">Image Upload</label>
+                        <div class="form-control">
+                            <input type="file" id="ImageUpload" name="files" class="multiple" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="Product Specification">Product Specification</label>
+                        <textarea class="form-control" id="ProductSpecification" name="ProductSpecification" value=""
+                            placeholder="Product Specification" rows="6"></textarea>
+
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary"
+                            style=" width: 157px; text-align: center; font-size: 18px; height: 36px;"
+                            id="SubmitButton">Submit</button>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+        <!---END-->
+    </div>
+    <!-- /.row -->
+</div>
+<app-footer></app-footer>
