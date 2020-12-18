@@ -6,6 +6,8 @@ import { HomeModule } from './Site/modules/home/home.module';
 import { RegistrationloginModule } from './admin/modules/registrationlogin/registrationlogin.module';
 import { HeaderfooterModule } from './Site/modules/headerfooter/headerfooter.module';
 import { ProductModule } from './Site/modules/product/product.module';
+import { CategoryModule } from './Site/modules/category/category.module';
+import { CheckoutModule } from './Site/modules/checkout/checkout.module';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { ProductModule } from './Site/modules/product/product.module';
     HomeModule,
     RegistrationloginModule,
     HeaderfooterModule,
-    ProductModule
+    ProductModule,
+    CategoryModule,
+    CheckoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,110 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333333;
+    }
+	.page-title {
+    text-align: center;
+    color: #0a1722;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+.checkout {
+    border-top: 1px solid #ededed;
+}
+.bg-white {
+    background-color: #ffffff;
+}.page-section {
+    background: #f4f4f4;
+    padding: 25px;
+    border: 1px solid #d8d8d8;
+    margin-bottom: 20px;
+}
+.section-head {
+    border-bottom: 2px solid #0089d0;
+    margin-bottom: 16px;
+}
+.section-head h1 {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 600;
+}
+.section-head span {
+    background: #0089d0;
+    color: #ffffff;
+    padding: 7px 13px;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+.address {
+    border-radius: 3px;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 5px 10px 0;
+    position: relative;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.checkout, .address ,.form-control {
+    padding: 12px 15px;
+    margin-top: 15px;
+    height: 40px;
+    box-shadow: none;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.koyla-table {
+    border-collapse: collapse;
+    width: 100%;
+}.koyla-table th, .koyla-table td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+table {
+    border-spacing: 0;
+    
+}
+.pull-right {
+    float: right !important;
+}
+
+input[type="checkbox"], input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.btn.submit-btn {
+    background: #f58220;
+    color: #ffffff;
+}
+
+.btn {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    border: medium none;
+    border-radius: 0;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 12px 30px;
+    text-transform: uppercase;
+    transition: all 400ms ease-out 0s;
+    cursor: pointer;
+}

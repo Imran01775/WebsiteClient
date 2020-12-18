@@ -1,0 +1,38 @@
+<app-header></app-header>
+    <div class="container">
+        <div class="row">
+            <div class="column">
+                <div class="category_wrapper">
+            
+                    <app-categoryfilter></app-categoryfilter>
+                        <div class="col-md-9 col-lg-9 category_zero" style="border: 1px solid #e1e1e1;position:relative;">
+                       <app-categorysorting></app-categorysorting>
+
+                            <div class="category_product_container">
+                            
+                                <app-categoryproducts></app-categoryproducts>
+
+                            </div>
+                                
+                            </div>
+
+                            <div class="pagination_wrapper">
+                                <nav aria-label="Page navigation example">
+                                    <ul class="pagination">
+                                    <li>1</li>
+                                       <li>2</li> 
+                                        <li>3</li>
+                                    </ul>
+                                </nav>
+                            </div>
+
+                            <div class="loader-container" style="display:none;">
+                                <img src="~/images/icon/loader.gif" />
+                            </div>
+                        </div>
+                   
+
+                </div>
+            </div>
+        </div>
+    <app-footer></app-footer>

@@ -1,0 +1,21 @@
+.category_zero{
+    padding:0;
+    margin:0;
+}
+
+.category_wrapper{
+    float:left;
+    width:100%;
+
+    margin-top:25px;
+}
+
+
+
+        .category_product_container{
+            float:left;
+            width:100%;
+            margin-bottom:20px;
+            padding:0;
+            text-align:center;
+        }

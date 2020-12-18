@@ -1,0 +1,33 @@
+<app-header></app-header>
+<div class="container">
+    <div class="row">
+        <div class="column">
+         <section class="checkout bg-white">
+<div class="container">
+    <h1 class="page-title">Checkout</h1>
+    <form class="checkout-content" id="checkout-form" action="https://www.startech.com.bd/checkout/onepagecheckout" method="post">
+        <div class="row">
+            <div class="col-md-4 col-sm-12">
+                <app-billinginfo></app-billinginfo>
+            </div>
+          
+            <div class="col-md-8 col-sm-12">
+                <div class="row row-payment-delivery-order">
+                    <div class="col-md-6 col-sm-12 payment-methods"> 
+                  <app-paymentinfo></app-paymentinfo>
+                    </div>
+                    <div class="col-md-6 col-sm-12 delivery-methods">
+                   <app-deliveryinfo></app-deliveryinfo>
+                    </div>
+                    <app-ordersummaryinfo></app-ordersummaryinfo>
+                </div>
+            </div>
+        </div>
+    </form>
+
+</div>
+</section>
+        </div>
+    </div>
+</div>
+<app-footer></app-footer>
